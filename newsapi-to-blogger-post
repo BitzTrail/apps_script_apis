@@ -8,7 +8,8 @@ var NEWS_API_KEY = "1cb3ca22268a477b9d2a2f65c940ecfa";
  * https://mashe.hawksey.info/2015/10/setting-up-oauth2-access-with-google-apps-script-blogger-api-example/
  * https://github.com/googlesamples/apps-script-oauth2
  * https://developers.google.com/blogger/docs/3.0/getting_started
- *
+ * https://github.com/benlcollins/apps_script_apis
+ * https://www.bettercloud.com/monitor/the-academy/use-apps-script-push-live-news-headlines-slack-google-sheets/
  **/
 
 // add custom menu
@@ -217,10 +218,7 @@ var newsObj = JSON.parse(newsResponse);
     
   };
   
-  
-  
-  
-  
+ 
   var kind ='#blogger#post';
  // var kind = toPublish.getRange(4,1).getValue();
  // var blogId = toPublish.getRange(4,2).getValue();
